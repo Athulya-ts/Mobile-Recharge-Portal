@@ -1,0 +1,266 @@
+.app-name-page{
+    background-color: steelblue;
+    height:100vh;
+}
+.app-name-head{
+    float: right;
+    margin-top: 250px;
+    margin-right: 210px;
+}
+
+.app-name-left{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.app-name{
+    font-size: 70px;
+    font-family:'Algerian';
+    font-style: italic;
+}
+.app-name-btn{
+    padding-top:450px;
+    padding-left: 450px;
+}
+.nav {
+    width: 100%;
+    position: fixed;
+  }
+  
+  .user-page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+  }
+  
+  .user-div-1,
+  .user-div-2 {
+    width: 48%;
+  }
+  
+  .user-div-1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+  }
+  
+  .user-div-3 {
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto; 
+  }
+  
+  .trend-data-plan-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+    
+  .trend-border-box {
+    flex: 0 1 calc(31% - 0px); 
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+  }
+
+  .trend-border-box .p2 {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
+    margin: 0; 
+  }
+
+.trend-border-box {
+    border: 2px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+.user-div-2 {
+    width: 58%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #9dc5f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .p1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .p2 {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  p .u-link {
+    font-size: 20px;
+    color: #4c7592;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .u-link:hover {
+    text-decoration: underline;
+  }
+
+  li{
+    text-decoration: none;
+    display: inline;
+  }
+  .li-1{
+    width: 33.3%;
+  }
+/*IMPORTANT!! FOR DATA PLANS!!*/
+.trend-border {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-x: auto;  
+}
+
+/* .trend-horizontal-scroll {
+  white-space: nowrap;
+} */
+
+/* .trend-border-box {
+  flex: 0 1 calc(31% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  box-sizing: border-box; 
+  overflow-x: auto;  
+} */
+
+.trend-horizontal-scroll li {
+  display: inline-block;
+  padding: 0 14px;
+  white-space: normal;  
+}
+
+.trend-border-box .trend-horizontal-scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.trend-border-box .trend-horizontal-scroll li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.trend-border-box {
+  border: 2px solid #d6d6d6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.trend-partition {
+  position: relative;
+  overflow: hidden;
+  color: rgb(79, 79, 79);
+}
+
+.trend-partition::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjust the width as needed */
+  height: 100%;
+  background-color: #9dc5f0;
+  z-index: -1;
+}
+
+.p2 {
+  line-height: 1.5; 
+  margin: 0;
+}
+.trending-airtel,.trending-jio,.trending-bsnl{
+  color: #ff0000;
+}
+/* Add these styles to your main.css file */
+.slideshow-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slide {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  animation: scroll 1000s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide img {
+  margin-right: 30px;
+}
+/* Footer styles */
+.footer {
+  width: 102.65%;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+  margin-left: -20px;
+  margin-right: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+}
+
+.footer-section .footer-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section .footer-li {
+  margin-bottom: 2px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 0px;
+}
